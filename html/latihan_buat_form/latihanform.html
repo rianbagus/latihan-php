@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pembuatan Form Pertama</title>
+	</head>
+	<body>
+		action
+		<form action="formaksi.php" method="get">
+			Nama User : <input type="text" name="nama" value="" placeholder=""><br>
+			Password  : <input type="password" name="pass" value="" placeholder=""><br>
+			Email     : <input type="email" name="mail"><br>
+			Gender    : <input type="radio" name="gender" value="laki" checked="">Laki-Laki
+			<input type="radio" name="gender" value="perempuan">Perempuan <br>
+			Hobby     : <input type="checkbox" name="sepeda" value="Bersepeda">Sepeda
+			<input type="checkbox" name="tonton" value="Menonton">Nonton
+			<input type="checkbox" name="bola" value="Main Bola" >Bola	<br>
+			<select name="agama">
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="buda">Budha</option>
+			</select>	<br>
+			<textarea name="alamat">
+			Jl.Dharma Putra 9
+			</textarea>	<br>
+			
+			<input type="file" onchange="previewFile()"><br>
+			<img src="" height="20" alt="Image preview...">
+			<script type="text/javascript">
+				function previewFile() {
+					var preview = document.querySelector('img');
+					var file    = document.querySelector('input[type=file]').files[0];
+					var reader  = new FileReader();
+					reader.addEventListener("load", function () {
+				preview.src = reader.result;
+			}, false);
+			if (file) {
+			reader.readAsDataURL(file);
+			}
+			}
+			</script>
+			<br>
+			<input type="submit" name="proses">
+		</form>
+	</body>
+</html>
