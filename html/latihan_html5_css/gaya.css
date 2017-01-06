@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 2px;
+}
+h1{
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}
+nav, ul, li{
+	display: inline;
+
+}
+section{
+	column-count: 3;
+	background-color: yellow;
+	margin-top: 20px;
+}
+section article p{
+	border: 5px solid black;
+	padding: 20px;
+}
+footer p{
+	text-align: center;
+	background: black;
+	margin-top: 20px;
+	color: yellow;
+}
