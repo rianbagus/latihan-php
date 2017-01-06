@@ -1,0 +1,60 @@
+#wrapper{
+	margin: 0 auto;
+	width: 820px;
+	padding-bottom: -50px;
+	border-top: 10px solid gray;
+	border-right: 4px solid gray;
+	border-bottom: 4px solid gray;
+	border-left: 4px solid gray;
+}
+#kepala header h1{
+	text-align: center;
+	border-top: 15px solid red;
+	font-size: 50px;
+	letter-spacing: 3px;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+#navigasi nav ul{
+	border: 1px solid black;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 0px;
+}
+#navigasi nav ul li{
+	display: inline;
+}
+.nav1 li{
+	padding-right: 40px;
+}
+#badan{
+	margin: 30px 80px 0px 80px;
+}
+#badan section{
+	column-count: 3;
+}
+#badan section img{
+	width: 180px;
+	margin-left: 19px;
+	border: 5px solid gray;
+}
+#badan h2{
+	letter-spacing: 3px;
+	font-size: 35px;
+	font-family: arial;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+#artikel1{
+	border-top: 5px solid gray;
+	border-right: 5px solid gray;
+}
+#artikel1 h3{
+		font-size: 20px;
+	font-family: arial;
+}
+p{
+	text-align: justify;
+}
